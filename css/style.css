@@ -49,11 +49,12 @@ body {
   body {
     background-size: cover;
     height: 100%;
+    width: auto;
   }
   .card img {
     width: 100%;
   }
   .container {
-    width: 100%;
+    width: 50%;
   }
 }
