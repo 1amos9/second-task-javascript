@@ -5,7 +5,7 @@ body {
   display: grid;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 100%;
 }
 .container {
   width: 30rem;
@@ -41,4 +41,16 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+@media (max-width: 768px) {
+  .row-fluid {
+    flex-direction: column;
+  }
+  body {
+    background-size: cover;
+    height: 100%;
+  }
+  .container {
+    width: 100%;
+  }
 }
